@@ -1,0 +1,58 @@
+# General 
+#.project
+.settings
+.git
+/demonstrator/
+
+# atvise
+atv_start.cmd
+nodes.db
+atserver_std.log
+/database/
+*.log
+*.log.*
+*.cmd
+*.db-journal
+*.db
+*.db-shm
+*.db-wal
+
+# PLC
+/bin
+*.m
+.compile
+.olc
+.src
+*.launch
+
+# no archives
+*.jar
+*.zip
+*.gz
+*.7z
+*.tar.gz
+ 
+# no derived resources
+*.class
+bin/
+dist/
+target/
+workspace/
+.recommenders/
+aggregators/
+screenshots/
+xtend-gen/
+doc-gen/
+src-gen/
+node_modules/
+ 
+## various other file types we don't want to have in the repository:
+.DS_Store
+*~
+*#
+*.licensed
+*.aux
+*_trace
+tmp/
+*.tmp
+*.bak       
